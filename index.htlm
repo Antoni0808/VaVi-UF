@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Hemsida</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4e73df, #1cc88a);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: white;
+            color: #4e73df;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #f8f9fc;
+            transform: scale(1.05);
+        }
+
+        section {
+            padding: 50px 20px;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.3);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Välkommen till min hemsida</h1>
+        <p>Detta är min personliga webbplats hostad på GitHub.</p>
+        <a href="#om" class="btn">Läs mer</a>
+    </header>
+
+    <section id="om">
+        <h2>Om mig</h2>
+        <p>Här kan du skriva lite information om dig själv, dina projekt eller dina intressen.</p>
+    </section>
+
+    <section>
+        <h2>Mina projekt</h2>
+        <p>Här kan du lista dina GitHub-projekt och länka till dem.</p>
+    </section>
+
+    <footer>
+        © 2026 Min Hemsida | Skapad med HTML & CSS
+    </footer>
+
+</body>
+</html>
