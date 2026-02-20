@@ -1,0 +1,108 @@
+/* ====== Grundinställningar ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #1f1f1f, #2c3e50);
+    color: #ffffff;
+}
+
+/* ====== Navigation ====== */
+nav {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #1abc9c;
+}
+
+/* ====== Header ====== */
+header {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* ====== Sektioner ====== */
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* ====== Kort / Projekt ====== */
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* ====== Knapp ====== */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 15px;
+    background: #1abc9c;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #16a085;
+}
+
+/* ====== Footer ====== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+/* ====== Mobilanpassning ====== */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
