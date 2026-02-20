@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Segoe UI', Cursive, sans-serif;
     line-height: 1.6;
     background: linear-gradient(135deg, #1f1f1f, #2c3e50);
     color: #ffffff;
@@ -22,7 +22,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: Champagne;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -76,7 +76,7 @@ section {
     padding: 12px 25px;
     margin-top: 15px;
     background: #1abc9c;
-    color: white;
+    color: Red;
     text-decoration: none;
     border-radius: 30px;
     transition: 0.3s;
@@ -104,5 +104,140 @@ footer {
     nav a {
         display: block;
         margin: 10px 0;
+    }
+}
+/* ====== Luxury Reset ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #0d0d0d;
+    color: #f5f5f5;
+    line-height: 1.7;
+}
+
+/* ====== Elegant Navigation ====== */
+nav {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+nav a {
+    color: #d4af37;
+    text-decoration: none;
+    margin: 0 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.8);
+}
+
+/* ====== Hero Section ====== */
+header {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.9)
+    ),
+    url("https://images.unsplash.com/photo-1514361892635-e955c7b1f06e") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    color: #d4af37;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    opacity: 0.85;
+}
+
+/* ====== Gold Divider ====== */
+.divider {
+    width: 80px;
+    height: 2px;
+    background: #d4af37;
+    margin: 25px auto;
+}
+
+/* ====== Premium Sections ====== */
+section {
+    padding: 100px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* ====== Luxury Cards ====== */
+.card {
+    background: linear-gradient(145deg, #1a1a1a, #111);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.05);
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 40px rgba(212, 175, 55, 0.3);
+}
+
+/* ====== Luxury Button ====== */
+.btn {
+    display: inline-block;
+    padding: 14px 35px;
+    background: linear-gradient(45deg, #d4af37, #b8962e);
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #f1d77a, #d4af37);
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+}
+
+/* ====== Footer ====== */
+footer {
+    background: #000;
+    text-align: center;
+    padding: 30px;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(212, 175, 55, 0.3);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 12px 0;
     }
 }
