@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Min Hemsida</title>
+    <title>Fine As Wine</title>
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: Cursive, sans-serif;
             background: linear-gradient(135deg, #4e73df, #1cc88a);
             color: white;
             text-align: center;
@@ -58,14 +58,14 @@
 <body>
 
     <header>
-        <h1>Välkommen till min hemsida</h1>
+        <h1>Välkommen till Fine as Wine</h1>
         <p>Detta är min personliga webbplats hostad på GitHub.</p>
         <a href="#om" class="btn">Läs mer</a>
     </header>
 
     <section id="om">
         <h2>Om mig</h2>
-        <p>Här kan du skriva lite information om dig själv, dina projekt eller dina intressen.</p>
+        <p>Två stekare som diggar o vaska, o lite tösar på det va.</p>
     </section>
 
     <section>
